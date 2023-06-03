@@ -1,8 +1,8 @@
 # Hotel
 
-#Database project
+# Database project
 
-#Question
+Question
 
 Create a food ordering app for a hotel.<br>
 There will be two main actors to play role:<br>
