@@ -15,7 +15,7 @@ public class order {
 			database.connectToDatabase();
 			
 			System.out.println("***** Welcome to our restaurant *****");
-			System.out.println("Choose one \n1.Admin login 2.Order food");
+			System.out.println("Choose one \n1.Admin login 2.Order food 3.exit");
 			Scanner s =new Scanner(System.in);
 			ch=s.nextInt();
 			if(ch==1)
