@@ -100,9 +100,9 @@ public class order {
 	    			while(rs.next())
 	    			{
 	    				int id = rs.getInt("fid");
-	                    String name = rs.getString("item");
-	                    int amt = rs.getInt("price");
-	                    System.out.println(" "+id+"      "+name+"      "+amt);
+	                	        String name = rs.getString("item");
+	                	        int amt = rs.getInt("price");
+	                	        System.out.println(" "+id+"      "+name+"      "+amt);
 	    			}
 	    		} catch (SQLException e) {
 	    			e.printStackTrace();
