@@ -19,15 +19,15 @@ public class database {
         
 
         try {
-            // Step 1: Register JDBC driver
+            
             Class.forName(JDBC_DRIVER);
 
             
                 try {
-                    // Step 2: Open a connection
+                    
                     conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
                     stmt=conn.createStatement();
-                    // Perform database operations here...
+                   
                     System.out.println("Connected to the database successfully!");
 
                    
